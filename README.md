@@ -1,1 +1,2 @@
 # AjaxRequest
+写这个javascript对象的目的主要是为了封装一下前端js调用webservice的方法
