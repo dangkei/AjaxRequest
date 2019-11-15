@@ -24,7 +24,7 @@ var AjaxRequest = function(){
 	//url：请求的url
 	//soapdata：提交的xml数据
 	//soapation webservice里的方法
-	this.InvokeWebService =function (serviceParam){
+	this.CallWebService =function (serviceParam){
 		this.serviceCallBack = serviceParam.callBack;
 	　　$.ajax({
 	　　　　type: "POST",
